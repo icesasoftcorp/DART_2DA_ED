@@ -27,11 +27,11 @@ Las instrucciones de las partes IV y V las tendrás que llevar a cabo siempre qu
 
        git fetch upstream
 
-* Sitúate en la rama master de tu fork:
+* Sitúate en la rama main de tu fork:
 
        git checkout main
 
-* Fusiona los cambios del 'remote' (repositorio original) en tu rama master (repositorio local):
+* Fusiona los cambios del 'remote' (repositorio original) en tu rama main (repositorio local):
 
          git merge upstream/main
 
@@ -42,10 +42,10 @@ En este punto, tienes el repositorio local actualizado. Haz las adiciones necesa
 
        git add .
        git commit -m "Mensaje que describa los cambios realizados"
-       git push origin master
+       git push origin main
 
 ### Parte V: Abrir una Pull Request
-* En GitHub, haz una ``Pull Request`` o solicitd de cambios, para que pueda verificar tus ejercicios y aceptarlos en la rama master del repositorio original si todo está bien y no hay conflictos. El origen debe ser el repositorio de tu cuenta de GitHub y, el destino, este repositorio.
+* En GitHub, haz una ``Pull Request`` o solicitd de cambios, para que pueda verificar tus ejercicios y aceptarlos en la rama main del repositorio original si todo está bien y no hay conflictos. El origen debe ser el repositorio de tu cuenta de GitHub y, el destino, este repositorio.
 
 
 README model taked from https://github.com/UnirCs/DWFS-PER8408-2324
